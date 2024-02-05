@@ -8,10 +8,8 @@ This repository contains a Jupyter notebook that implements the classic Snake ga
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
 - [Training the Model](#training-the-model)
-- [Results and Observations](#results-and-observations)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
+- [Performance Analysis](#performance-analysis)
+- [Conclusion](#conclusion)
 
 ## Project Overview
 The goal of this project is to explore reinforcement learning (RL) by applying it to a simple yet challenging problem: playing the Snake game. It involves creating a neural network that learns to navigate the game environment, avoid obstacles, and maximize the score by collecting food items.
@@ -76,7 +74,7 @@ The length of the snake chart demonstrates two key metrics:
 - **Progress Over Time**: The increasing average length of the snake, especially notable in later episodes, suggests that the agent's ability to play the game without crashing improves as it learns.
 
 
-### Conclusion
+## Conclusion
 
 The graph is a testament to the agent's learning capabilities, highlighting the success of the implemented reinforcement learning algorithms. As the training progresses, we expect the agent to continue improving and potentially reach a plateau in performance, which would suggest the achievement of an optimal or near-optimal strategy.
 
